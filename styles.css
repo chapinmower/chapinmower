@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f0f7ff, #ffffff);
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h1 {
+    color: #1e40af;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.welcome h2 {
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.welcome p {
+    font-size: 1.25rem;
+    color: #4b5563;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.documents {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.documents h3 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+    .section-spacing {
+        margin-top: 2rem;
+    }
+}
+
+.document-container {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+}
+
+.document-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.document-item:hover {
+    background-color: #f9fafb;
+}
+
+.document-info h4 {
+    font-size: 1.125rem;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+.document-info p {
+    color: #6b7280;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.download-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #1d4ed8;
+}
+
+.cloud-button {
+    background-color: #4b5563;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+.cloud-button:hover {
+    background-color: #374151;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #9ca3af;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+.logo-container {
+    max-width: 300px;
+    padding: 1rem 0;
+    margin: 0 auto;  /* This centers the container */
+    text-align: center;  /* This centers the image inside the container */
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
